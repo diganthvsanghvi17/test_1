@@ -26,4 +26,21 @@ total_spend_amount = num_packets * cost_chips
 money_returned = money_given - total_spend_amount
 
 # print the output
-print(money_returned)
+print('$'+str(money_returned))
+
+#You want to replace tiles in your bathroom which is exactly square and 5.5 feet is its length.
+# If tiles cost 500 rs per square feet,
+# how much will be the total cost to replace all tiles. Calculate and print the cost using python
+
+#declaring variables
+
+length_bathroom = 5.5
+cost_tiles = 500
+
+# logic implementation:
+area_bathroom = length_bathroom**2
+total_cost = area_bathroom*cost_tiles
+
+# printing the output
+
+print("RS" + " "+str(total_cost))

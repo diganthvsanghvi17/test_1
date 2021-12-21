@@ -44,3 +44,11 @@ total_cost = area_bathroom*cost_tiles
 # printing the output
 
 print("RS" + " "+str(total_cost))
+
+# Print binary representation of number 17
+#declaring variable
+number=17
+# logic implementation
+binary = f'{number:08b}'
+#printing of output
+print(binary)

@@ -38,3 +38,15 @@ num_of_fruits = 4
 
 print(f"I eat {num_of_vegetabels} veggies and {num_of_fruits} fruits daily")
 print("I eat" +" " +str(num_of_vegetabels) +" "+ "veggies and " + str(num_of_fruits) + " fruits daily")
+
+# 4. I have a string variable called s='maine 200 banana khaye'. This of course is a
+# wrong statement, the correct statement is 'maine 10 samosa khaye'.
+# Replace incorrect words in original strong with new ones and print the new string.
+# Also try to do this in one line.
+
+# declaring variables
+s='maine 200 banana khaye'
+
+s= s.replace('200','10').replace('banana','samosa')
+print(s)
+

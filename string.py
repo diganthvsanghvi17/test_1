@@ -25,3 +25,16 @@ given_string = "Earth revolves around the sun"
 print(given_string[6:14])
 print(given_string[-3:])
 
+# 3. Create two variables to store how many fruits and vegetables you eat in a day.
+# Now Print "I eat x veggies and y fruits daily" where x and y presents vegetables and fruits that you eat everyday.
+# Use python f string for this.
+
+#declaring the variables:
+
+num_of_vegetabels = 3
+num_of_fruits = 4
+
+# printing te output
+
+print(f"I eat {num_of_vegetabels} veggies and {num_of_fruits} fruits daily")
+print("I eat" +" " +str(num_of_vegetabels) +" "+ "veggies and " + str(num_of_fruits) + " fruits daily")

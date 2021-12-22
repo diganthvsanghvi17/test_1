@@ -14,3 +14,14 @@ address_2 = f'{street}\n{city}\n{country}'
 # printing the address
 print("the address using the operator: \n",address_1)
 print("the address according to fstring:\n",address_2)
+
+# 2. Create a variable to store the string "Earth revolves around the sun"
+#     1. Print "revolves" using slice operator
+#     2. Print "sun" using negative index
+
+#declaring the variables
+given_string = "Earth revolves around the sun"
+# printing the output
+print(given_string[6:14])
+print(given_string[-3:])
+
